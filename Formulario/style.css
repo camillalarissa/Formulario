@@ -1,49 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family:'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;
+
 
 }
-body{
 
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+body {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 38%, rgba(0, 212, 255, 1) 100%);
 }
-form, div{
 
-    width: 40%;
-    min-width:350px;
+form, div {
+
+    width: 30%;
+
+    min-width: 300px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(133, 115, 115, 0.877);
     margin: 100px auto;
     padding: 10px;
 
-    
+
 }
-input, textarea{
+
+input, textarea {
     padding-left: 10px;
     min-width: 300px;
     height: 40px;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
-    border: 1px solid;
+    border: 3px solid;
     margin-top: 20px;
 }
 
-textarea{
+textarea {
     height: 200px;
     padding-top: 10px;
 
 }
+
 button {
     display: block;
     margin: 20px auto;
     height: 40px;
-    width: 60%;
+    width: 20%;
     border: none;
     border-radius: 5px;
     background-color: blue;
@@ -51,13 +56,15 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
-button:active{
+
+button:active {
     opacity: 0.6;
 }
-h1{
-    text-align: center;
 
+h1 {
+    text-align: center;
+    font-size: 50px;
 }
